@@ -1,24 +1,30 @@
 # codeprompt
-an improvemet from [chunrapeepat/codeprompt](https://github.com/chunrapeepat/codeprompt) with auto chucking
-- use as cli
-- read selected from vscode
+An improvement from [chunrapeepat/codeprompt](https://github.com/chunrapeepat/codeprompt) with auto chunking 📚
+- Use as CLI 🖥️
+- Read selected from VSCode 🆚
+- copy and paste to clipboard, directly 🪄
 
-## install
+## Install 📥
 ```bash
 pip install codeprompt
 pipx install codeprompt
 ```
 
+## Usage 🛠️
 ```bash
 $ codeprompt
 Open VSCode and Copy the paths (Shift + Alt + C) of the files you want to include in the prompt.
 Press Enter to continue.
 
-
 read 1 files
 total number of tokens: 917
-Press Enter to continue (Y, n) [Y/n]:  
-What do you waht to ask ChatGPT? [Explain this to me.]:
+
+
+$ Press Enter to continue (Y, n) [Y/n]:  
+
+$ What do you waht to ask ChatGPT? [Explain this to me.]:
+
+
 Prompt is ready to be copied to clipboard.
 
 Chunk 1/1 is copied to clipboard.
@@ -36,7 +42,8 @@ context. Instructions may include questions, requests to refactor, debug, find v
 code more robust. The programming language can be determined from the file extension in the file path.
 ----
 codeprompt\template.py
-\`\`\`
+```
+```python
 import os
 from pathlib import Path
 from loguru import logger
@@ -69,12 +76,13 @@ class TemplateManager:
         }
 
 
-\`\`\`
+```
+```
 --END--
 create add docstring to the function
-
 ```
 
-## resources
-1. https://github.com/mmabrouk/chatgpt-wrapper
-2. https://github.com/chunrapeepat/codeprompt
+## Special Thanks 🙏
+1. <https://github.com/mmabrouk/chatgpt-wrapper> - good template idea, learn token count here, plus interactive TUI interface
+2. <https://github.com/chunrapeepat/codeprompt> - original codeprompt
+3. <https://github.com/Significant-Gravitas/Auto-GPT> - auto chunking, inject memory, and more
