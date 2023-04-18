@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "pyprompt"
+name = "codeprompt"
 version = "0.1.0"
 description = ""
 authors = ["Nutchanon Ninyawee <nutchanon@codustry.com>"]
 readme = "README.md"
 
 [tool.poetry.scripts]
-codeprompt = "pyprompt.codeprompt:main"
+codeprompt = "codeprompt.codeprompt:main"
 
 [tool.poetry.dependencies]
 python = "^3.9"

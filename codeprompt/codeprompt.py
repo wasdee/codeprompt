@@ -1,7 +1,7 @@
 from pathlib import Path
 from pydantic import BaseModel
 import pyperclip
-from pyprompt.techniques.count_token import count_token
+from codeprompt.techniques.count_token import count_token
 import click
 
 # 167 tokens

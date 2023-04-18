@@ -1,9 +1,9 @@
-# pyprompt
+# codeprompt
 ultils for prompt engineers e.g. chucking
 
 ## install
 ```bash
-pip install pyprompt
+pip install codeprompt
 ```
 
 ```bash
@@ -32,7 +32,7 @@ Any further text beyond "--END--" should be interpreted as instructions using th
 context. Instructions may include questions, requests to refactor, debug, find vulnerabilities, or make the
 code more robust. The programming language can be determined from the file extension in the file path.
 ----
-pyprompt\template.py
+codeprompt\template.py
 \`\`\`
 import os
 from pathlib import Path

@@ -2,7 +2,7 @@ from functools import lru_cache
 from typing import Optional, Type
 import tiktoken
 
-from pyprompt.chatgpt_models import GPTModel
+from codeprompt.chatgpt_models import GPTModel
 
 encoding_er = tiktoken.get_encoding("cl100k_base")
 

@@ -116,8 +116,8 @@ class TemplateManager:
 
 if __name__ == "__main__":
     template_dirs = [
-        "C:\\Users\\joe\\AppData\\Local\\pyprompt\\templates",
-        "C:\\Users\\joe\\AppData\\Local\\pyprompt\\profiles\\default\\templates",
+        "C:\\Users\\joe\\AppData\\Local\\codeprompt\\templates",
+        "C:\\Users\\joe\\AppData\\Local\\codeprompt\\profiles\\default\\templates",
     ]
     template_dirs = [Path(template_dir) for template_dir in template_dirs]
     template_manager = TemplateManager(template_dirs)

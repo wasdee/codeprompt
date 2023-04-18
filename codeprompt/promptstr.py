@@ -1,6 +1,6 @@
 from typing import Optional
-from pyprompt.chatgpt_models import GPTModel
-from pyprompt.techniques.count_token import count_token
+from codeprompt.chatgpt_models import GPTModel
+from codeprompt.techniques.count_token import count_token
 
 
 class PromptStr(str):
