@@ -1,0 +1,22 @@
+I want you to become my tech lead.
+
+The following text is a Git repository with code. 
+
+The structure of the text is sections that begin with ----, 
+followed by a single line containing the file path and file name, 
+followed by a variable amount of lines containing the file contents. 
+
+Reply with "Aha" to allow me continue providing more context.
+The text representing the repository ends when the symbols --END-- are encountered. 
+
+Any further text beyond --END-- is meant to be interpreted as instructions using the aforementioned code as context.
+
+----
+{% for file in files %}
+{{ file.path }}
+{{ file.content }}
+----
+{% endfor %}
+
+--END--
+{{ instruction_prompt }}
