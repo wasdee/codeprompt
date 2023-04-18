@@ -1,9 +1,12 @@
 # codeprompt
-ultils for prompt engineers e.g. chucking
+an improvemet from [chunrapeepat/codeprompt](https://github.com/chunrapeepat/codeprompt) with auto chucking
+- use as cli
+- read selected from vscode
 
 ## install
 ```bash
 pip install codeprompt
+pipx install codeprompt
 ```
 
 ```bash
